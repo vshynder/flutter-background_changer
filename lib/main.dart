@@ -13,7 +13,7 @@ class BackgroundChanger extends StatefulWidget {
 }
 
 class _BackgroundChangerState extends State<BackgroundChanger> {
-  Color initialColor = Colors.amber[100];
+  Color initialColor = Colors.cyan[50];
   Color randomColor;
 
   void generateNewColor() {
